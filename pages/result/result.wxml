@@ -1,0 +1,12 @@
+<view class="container">
+
+  <view class="usermotto">
+    <text class="result-desc">{{resultdesc}}</text>
+    <text class="result-result">{{result}}</text> 
+  </view>
+
+  <view class="change-view" bindtap="bindChangeTap" >
+    <text class="result-desc">不满意，点击此处换一个？</text> 
+  </view>
+
+</view>
