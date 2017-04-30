@@ -12,6 +12,12 @@ Page({
     })
   },
 
+ bindJumpNavigation: function() {
+    wx.navigateTo({
+      url: '../journeypath/journeypath'
+    })
+  },
+
   onLoad: function () {
     console.log('onLoad')
     var that = this

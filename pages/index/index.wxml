@@ -6,4 +6,7 @@
   <view bindtap="bindHotelTap" class="usermotto" >
     <text class="userinfo-nickname">{{mottoselect}}</text> 
   </view>
+  <view bindtap="bindJumpNavigation" class="usermotto" >
+    <text class="userinfo-nickname">跳转导航</text> 
+  </view>
 </view>

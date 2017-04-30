@@ -1,0 +1,24 @@
+<view class="page">
+  <view class="page__bd">
+    <view class="section section_gap">
+      <map id="my_map" style="width: 100%; height: 400px;" latitude="{{locationInfo.latitude}}" longitude="{{locationInfo.longitude}}" markers="{{markers}}" polyline="{{polyline}}">
+      </map>
+    </view>
+    <view class="section section_gap" bindtap="selectDeparture">
+      <label>
+        出发地：{{locationInfo.departureName}}
+      </label>
+      <label>
+        {{money}}
+      </label>
+    </view>
+    <view class="section section_gap" bindtap="selectDestination">
+      <label>
+        目的地：{{locationInfo.destinationName}}
+      </label>
+      <label>
+        {{carno}}
+      </label>
+    </view>
+  </view>
+</view>
